@@ -1,0 +1,16 @@
+{
+    "project": "Flood Early-Warning System",
+    "algorithm": "Logistic Regression",
+    "features": [
+        "WaterLevel_m",
+        "Rainfall_mm",
+        "SoilMoisture_pct"
+    ],
+    "target": "FloodOccurrence",
+    "classes": {
+        "0": "Low flood risk",
+        "1": "High flood risk"
+    },
+    "dataset_region": "Metro Manila, Philippines",
+    "warning": "Prototype only. Not validated for operational flood warnings or for Rwanda."
+}
